@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    width: 80%;
+    padding: 50px 10px;
+    margin-left:10%;
+    /* background-color: gray; */
+}
+.container{
+    width: 100%;
+    padding: 20px ;
+    padding-right: 0px;
+    /* background-color: red; */
+}
+.header{
+    width: 100%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+}
+.heading{
+    font-size: 35px;
+    font-weight: 300;
+}
+#search{
+    width: 20%;
+    font-size: 18px;
+    text-indent: 20px;
+    outline: none;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+.pagination{
+    width: 100%;
+    padding: 5px;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+.pagination button{
+
+    width: 30px;
+    margin-left: 2px;
+    height: 25px;
+    background-color: rgb(248, 243, 243);
+    border: 1px solid gray;
+    outline: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.nums{
+    display: flex;
+    column-gap: 10px;
+    width: 90px;
+}
+.table{
+    width: 100%;
+    margin-top: 50px;
+    border-collapse: collapse;
+}
+th,td{
+    font-size: 20px;
+    border: 1px solid rgb(205, 203, 203);
+    padding: 10px;
+    text-align: center;
+}
